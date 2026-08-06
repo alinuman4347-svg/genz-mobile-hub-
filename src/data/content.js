@@ -40,7 +40,6 @@ export const FEATURED_PRODUCTS = [
     desc: 'Shock-absorbing frame, raised camera lip, magnet-ready back.',
     img: productCover,
     imgHeight: 172,
-    dark: false,
     waLabel: 'the Rugged MagSafe Cover',
   },
   {
@@ -50,7 +49,6 @@ export const FEATURED_PRODUCTS = [
     desc: 'Edge-to-edge, oleophobic coating, free dust-free installation.',
     img: productGlass,
     imgHeight: 200,
-    dark: false,
     waLabel: 'the Full-Cover Tempered Glass',
   },
   {
@@ -60,7 +58,6 @@ export const FEATURED_PRODUCTS = [
     desc: 'Charge phone and buds together. Live wattage display.',
     img: productCharger,
     imgHeight: 150,
-    dark: false,
     waLabel: 'the 40W Dual-Port Fast Charger',
   },
   {
@@ -70,7 +67,6 @@ export const FEATURED_PRODUCTS = [
     desc: '1.5m nylon braid, 10k bend tested, no slowdown.',
     img: productCable,
     imgHeight: 170,
-    dark: true,
     waLabel: 'the Braided 60W Type-C Cable',
   },
   {
@@ -80,7 +76,6 @@ export const FEATURED_PRODUCTS = [
     desc: 'Clear call mics for meetings, 30h with the case.',
     img: productEarbuds,
     imgHeight: 180,
-    dark: true,
     waLabel: 'the TWS Earbuds Pro',
   },
   {
@@ -89,8 +84,7 @@ export const FEATURED_PRODUCTS = [
     title: 'Slim PD Power Bank',
     desc: 'Three full charges, fits a laptop bag pocket.',
     img: productPowerbank,
-    imgWidthFull: true,
-    opaque: true,
+    imgHeight: 150,
     waLabel: 'the Slim PD Power Bank',
   },
 ];

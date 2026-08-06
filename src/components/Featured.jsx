@@ -5,21 +5,9 @@ import './Featured.css';
 function ProductCard({ product }) {
   return (
     <div className="prod-card">
-      <div
-        className={`prod-card__media${product.dark ? ' prod-card__media--dark' : ''}${
-          product.opaque ? ' prod-card__media--opaque' : ''
-        }`}
-      >
+      <div className="prod-card__media">
         <span className="prod-card__badge">{product.badge}</span>
-        <img
-          src={product.img}
-          alt={product.title}
-          style={
-            product.imgWidthFull
-              ? { width: '100%' }
-              : { height: product.imgHeight, width: 'auto' }
-          }
-        />
+        <img src={product.img} alt={product.title} style={{ height: product.imgHeight, width: 'auto' }} />
       </div>
       <h3 className="prod-card__title">{product.title}</h3>
       <p className="prod-card__desc">{product.desc}</p>
