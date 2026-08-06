@@ -39,68 +39,6 @@ export const HERO_TAGS = [
   'Installation Available',
 ];
 
-export const CATEGORIES = [
-  {
-    key: 'covers',
-    title: 'Phone Covers',
-    tag: 'Most ordered',
-    desc: 'Silicone, magsafe, clear and rugged cases for every model — fitted at your desk.',
-    img: productCover,
-    variant: 'big',
-  },
-  {
-    key: 'glass',
-    title: 'Tempered Glass',
-    desc: '9H bubble-free protection, applied dust-free while you wait.',
-    img: productGlass,
-    variant: 'wide',
-  },
-  {
-    key: 'chargers',
-    title: 'Fast Chargers',
-    desc: '20W–65W PD bricks.',
-    img: productCharger,
-    variant: 'small',
-  },
-  {
-    key: 'cables',
-    title: 'Charging Cables',
-    desc: 'Braided Type-C & Lightning.',
-    img: productCable,
-    variant: 'small',
-  },
-  {
-    key: 'earbuds',
-    title: 'Wireless Earbuds',
-    desc: 'ENC calls, 30h playtime.',
-    img: productEarbuds,
-    variant: 'small',
-  },
-  {
-    key: 'powerbanks',
-    title: 'Power Banks',
-    desc: '10k–20k mAh, PD out.',
-    img: productPowerbank,
-    variant: 'small',
-    imgChip: true,
-  },
-  {
-    key: 'wrapping',
-    title: 'Phone Wrapping',
-    desc: 'Matte, carbon & chrome skins.',
-    letter: 'W',
-    variant: 'accent',
-  },
-  {
-    key: 'other',
-    title: 'Other Accessories',
-    desc: 'Holders, rings, OTG, adapters.',
-    letter: '+',
-    variant: 'outline',
-    cta: 'Ask on WhatsApp',
-  },
-];
-
 export const FEATURED_PRODUCTS = [
   {
     key: 'magsafe-cover',

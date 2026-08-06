@@ -1,6 +1,5 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Accessories from './components/Accessories';
 import Featured from './components/Featured';
 import WhyChooseUs from './components/WhyChooseUs';
 import HowItWorks from './components/HowItWorks';
@@ -17,7 +16,6 @@ function App() {
       <CursorGlow />
       <Navbar />
       <Hero />
-      <Accessories />
       <Featured />
       <WhyChooseUs />
       <HowItWorks />

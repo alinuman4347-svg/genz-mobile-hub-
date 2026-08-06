@@ -39,7 +39,7 @@ export default function Featured() {
   const { ref, visible } = useReveal();
 
   return (
-    <section className="featured">
+    <section id="accessories" className="featured">
       <div className="pad">
         <div className={`featured__head reveal${visible ? ' is-visible' : ''}`} ref={ref}>
           <div>
