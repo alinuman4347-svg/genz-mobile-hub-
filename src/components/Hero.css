@@ -105,29 +105,6 @@
   margin-top: 34px;
 }
 
-.hero__tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 34px;
-}
-.hero__tag {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 13px;
-  font-weight: 500;
-  color: #c3cbbf;
-  padding: 9px 15px;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(255, 255, 255, 0.03);
-}
-.hero__tag-dot {
-  color: var(--green);
-  font-weight: 700;
-}
-
 .hero__visual {
   position: relative;
   display: flex;

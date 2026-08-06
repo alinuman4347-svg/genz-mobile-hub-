@@ -1,7 +1,7 @@
 import mascot from '../assets/mascot.png';
 import heroCluster from '../assets/hero-cluster.png';
 import useReveal from '../hooks/useReveal';
-import { HERO_TAGS, TICKER_ITEMS, waLink } from '../data/content';
+import { TICKER_ITEMS, waLink } from '../data/content';
 import Marquee from './Marquee';
 import { WhatsAppIcon } from './icons';
 import './Hero.css';
@@ -53,15 +53,6 @@ export default function Hero() {
               <a href="#accessories" className="btn btn--ghost">
                 Explore Accessories<span className="btn__arrow">↓</span>
               </a>
-            </Reveal>
-
-            <Reveal delay={240} className="hero__tags">
-              {HERO_TAGS.map((tag) => (
-                <span key={tag} className="hero__tag">
-                  <span className="hero__tag-dot">✦</span>
-                  {tag}
-                </span>
-              ))}
             </Reveal>
           </div>
 

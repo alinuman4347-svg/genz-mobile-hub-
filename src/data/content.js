@@ -32,13 +32,6 @@ export const TICKER_ITEMS = [
   'Installation',
 ];
 
-export const HERO_TAGS = [
-  'Fast Office Delivery',
-  'Premium Quality',
-  'Affordable Prices',
-  'Installation Available',
-];
-
 export const FEATURED_PRODUCTS = [
   {
     key: 'magsafe-cover',
