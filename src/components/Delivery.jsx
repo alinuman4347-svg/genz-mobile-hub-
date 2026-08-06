@@ -1,4 +1,5 @@
 import productCover from '../assets/product-cover.png';
+import deliveryOffice from '../assets/delivery-office.jpg';
 import useReveal from '../hooks/useReveal';
 import { waLink } from '../data/content';
 import './Delivery.css';
@@ -42,9 +43,11 @@ export default function Delivery() {
 
         <div ref={right.ref} className={`delivery__visual reveal${right.visible ? ' is-visible' : ''}`}>
           <div className="delivery__frame">
-            <div className="delivery__placeholder">
-              <span>Office / desk delivery photo</span>
-            </div>
+            <img
+              src={deliveryOffice}
+              alt="Gen Z Mobile Hub courier delivering an accessories kit to an office receptionist"
+              className="delivery__photo"
+            />
             <div className="delivery__fade" />
             <div className="delivery__caption">Delivered to reception. Fitted at your desk.</div>
           </div>
