@@ -23,10 +23,6 @@ function ProductCard({ product }) {
       </div>
       <h3 className="prod-card__title">{product.title}</h3>
       <p className="prod-card__desc">{product.desc}</p>
-      <div className="prod-card__price">
-        <span className="prod-card__price-value">Rs ——</span>
-        <span className="prod-card__price-note">price on request</span>
-      </div>
       <a
         href={waLink(product.waLabel)}
         target="_blank"

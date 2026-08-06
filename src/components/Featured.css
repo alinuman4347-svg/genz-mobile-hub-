@@ -128,28 +128,8 @@
   color: #5f685c;
 }
 
-.prod-card__price {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  margin-top: 14px;
-}
-.prod-card__price-value {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 900;
-  font-size: 22px;
-  color: #0a0d0b;
-}
-.prod-card__price-note {
-  font-size: 11.5px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #8a9384;
-}
-
 .prod-card__cta {
-  margin-top: 16px;
+  margin-top: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
