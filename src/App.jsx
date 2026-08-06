@@ -6,7 +6,6 @@ import HowItWorks from './components/HowItWorks';
 import Delivery from './components/Delivery';
 import Reviews from './components/Reviews';
 import ContactCTA from './components/ContactCTA';
-import Footer from './components/Footer';
 import WhatsAppFloat from './components/WhatsAppFloat';
 import CursorGlow from './components/CursorGlow';
 
@@ -22,7 +21,6 @@ function App() {
       <Delivery />
       <Reviews />
       <ContactCTA />
-      <Footer />
       <WhatsAppFloat />
     </>
   );

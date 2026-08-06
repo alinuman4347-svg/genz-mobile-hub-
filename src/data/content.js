@@ -192,21 +192,3 @@ export const REVIEWS = [
     text: 'Power bank arrived the same evening. Now half my floor orders from them.',
   },
 ];
-
-export const FOOTER_CATEGORIES = [
-  'Phone Covers',
-  'Tempered Glass',
-  'Fast Chargers',
-  'Charging Cables',
-  'Wireless Earbuds',
-  'Power Banks',
-  'Phone Wrapping',
-];
-
-export const FOOTER_COMPANY = [
-  { label: 'Why Choose Us', href: '#why' },
-  { label: 'Office Delivery', href: '#delivery' },
-  { label: 'Reviews', href: '#reviews' },
-  { label: 'Installation', href: '#accessories' },
-  { label: 'Contact', href: '#contact' },
-];
