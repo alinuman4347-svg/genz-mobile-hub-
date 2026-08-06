@@ -1,7 +1,6 @@
 import useReveal from '../hooks/useReveal';
 import useCounter from '../hooks/useCounter';
 import { STATS, FEATURES } from '../data/content';
-import { WhatsAppIcon } from './icons';
 import './WhyChooseUs.css';
 
 function StatCard({ stat }) {
@@ -22,15 +21,8 @@ function StatCard({ stat }) {
 function FeatureRow({ feature }) {
   const { ref, visible } = useReveal();
   return (
-    <div
-      ref={ref}
-      className={`feature-row${feature.accent ? ' feature-row--accent' : ''} reveal${
-        visible ? ' is-visible' : ''
-      }`}
-    >
-      <div className="feature-row__icon">
-        {feature.accent ? <WhatsAppIcon size={22} color="#07160A" /> : feature.num}
-      </div>
+    <div ref={ref} className={`feature-row reveal${visible ? ' is-visible' : ''}`}>
+      <div className="feature-row__icon">{feature.num}</div>
       <div>
         <h3 className="feature-row__title">{feature.title}</h3>
         <p className="feature-row__desc">{feature.desc}</p>

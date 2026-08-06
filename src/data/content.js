@@ -117,12 +117,6 @@ export const FEATURES = [
     title: 'Installation Available',
     desc: 'Professional installation for covers and tempered glass.',
   },
-  {
-    num: 'wa',
-    title: 'Simple WhatsApp Ordering',
-    desc: 'Send a message, choose your accessory, and receive your order.',
-    accent: true,
-  },
 ];
 
 export const STEPS = [
