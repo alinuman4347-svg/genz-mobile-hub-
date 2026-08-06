@@ -70,7 +70,7 @@ export default function Hero() {
             <div className="hero__visual-frame">
               <img
                 src={heroCluster}
-                alt="Phone cover, tempered glass, charger, cable, earbuds and power bank"
+                alt="Power bank, wireless headphones, phone case, charging cable, earbuds, wall charger and car charger"
                 className="hero__visual-img"
               />
             </div>
