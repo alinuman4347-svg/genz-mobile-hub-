@@ -197,6 +197,21 @@
   }
 }
 
+@media (max-width: 767px) {
+  .hero__visual {
+    order: -1;
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+  .hero__visual-frame {
+    width: 93%;
+    max-width: 400px;
+  }
+  .hero__title {
+    font-size: 36px;
+  }
+}
+
 @media (min-width: 961px) {
   .hero__title {
     font-size: clamp(42px, 5.1vw, 71px);
