@@ -1,0 +1,163 @@
+.contact {
+  position: relative;
+  padding: 0 0 96px;
+}
+
+.contact__panel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 36px;
+  background: linear-gradient(120deg, #7cff00 0%, #a6ff3f 46%, #6fe500 100%);
+  color: #07160a;
+  padding: clamp(32px, 5vw, 64px);
+}
+
+.contact__dots {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.13) 1px, transparent 1px);
+  background-size: 22px 22px;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.contact__blob {
+  position: absolute;
+  top: -90px;
+  right: -60px;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.28);
+  filter: blur(20px);
+  pointer-events: none;
+  animation: drift 14s ease-in-out infinite;
+}
+
+.contact__grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;
+  gap: 44px;
+  align-items: center;
+}
+
+.contact__kicker {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.contact__kicker-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 20px;
+  background: #07160a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+}
+.contact__kicker-text {
+  font-size: 12.5px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.contact__title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: clamp(34px, 5vw, 66px);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  margin: 22px 0 0;
+  text-wrap: balance;
+}
+
+.contact__desc {
+  margin: 18px 0 0;
+  max-width: 520px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: rgba(7, 22, 10, 0.78);
+  text-wrap: pretty;
+}
+
+.contact__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.contact__wa-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  background: #07160a;
+  color: var(--green);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 16.5px;
+  padding: 18px 32px;
+  border-radius: 999px;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+.contact__wa-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 46px rgba(7, 22, 10, 0.4);
+  color: var(--green);
+}
+
+.contact__phone {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: clamp(24px, 3vw, 34px);
+  letter-spacing: -0.03em;
+  color: #07160a;
+}
+
+.contact__qr-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.contact__mascot {
+  width: 120px;
+  height: auto;
+  display: block;
+  animation: fl0 7s ease-in-out infinite;
+}
+.contact__qr-card {
+  padding: 14px;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 24px 60px rgba(7, 22, 10, 0.28);
+}
+.contact__qr-card img {
+  width: 186px;
+  height: 186px;
+  display: block;
+  border-radius: 10px;
+}
+.contact__qr-label {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 960px) {
+  .contact__grid {
+    grid-template-columns: 1fr !important;
+    text-align: center !important;
+    justify-items: center !important;
+  }
+  .contact__kicker {
+    flex-direction: column;
+  }
+}
