@@ -174,3 +174,22 @@
     display: flex !important;
   }
 }
+
+@media (max-width: 767px) {
+  .navbar {
+    padding: 16px 0;
+  }
+  .navbar--scrolled {
+    padding: 12px 0;
+  }
+  .navbar__inner.pad {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  .navbar__logo {
+    height: 48px;
+  }
+  .navbar__logo img {
+    height: 90px;
+  }
+}
