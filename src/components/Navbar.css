@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   z-index: 60;
-  padding: 16px 0;
+  padding: 15px 0;
   transition: background 0.35s, backdrop-filter 0.35s, border-color 0.35s, padding 0.35s;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   background: rgba(6, 8, 7, 0.18);
@@ -14,7 +14,7 @@
   background: rgba(6, 8, 7, 0.88);
   backdrop-filter: blur(18px);
   border-bottom-color: rgba(255, 255, 255, 0.08);
-  padding: 10px 0;
+  padding: 11px 0;
 }
 
 .navbar__inner {
