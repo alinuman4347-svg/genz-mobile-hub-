@@ -27,7 +27,7 @@ export default function Navbar() {
       <nav className={`navbar${scrolled ? ' navbar--scrolled' : ''}`}>
         <div className="pad navbar__inner">
           <a href="#home" className="navbar__logo">
-            <img src={logoWhite} alt="Gen Z Mobile Hub" height={70} />
+            <img src={logoWhite} alt="Gen Z Mobile Hub" height={105} />
           </a>
           <div className="navbar__links">
             {NAV_LINKS.map((link) => (

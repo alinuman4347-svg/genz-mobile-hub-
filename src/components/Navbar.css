@@ -24,12 +24,17 @@
 }
 
 .navbar__logo {
-  display: flex;
-  align-items: center;
+  position: relative;
   flex: 0 0 auto;
+  width: 105px;
+  height: 70px;
 }
 .navbar__logo img {
   display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
 
 .navbar__links {
