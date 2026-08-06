@@ -17,7 +17,13 @@ function CategoryCard({ cat }) {
       <span className="cat-card__cta">
         {cat.cta || 'Order Now'} <span>↗</span>
       </span>
-      {cat.img && <img className="cat-card__img" src={cat.img} alt={cat.title} />}
+      {cat.img && (
+        <img
+          className={`cat-card__img${cat.imgChip ? ' cat-card__img--chip' : ''}`}
+          src={cat.img}
+          alt={cat.title}
+        />
+      )}
     </a>
   );
 }

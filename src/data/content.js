@@ -82,6 +82,7 @@ export const CATEGORIES = [
     desc: '10k–20k mAh, PD out.',
     img: productPowerbank,
     variant: 'small',
+    imgChip: true,
   },
   {
     key: 'wrapping',
@@ -158,7 +159,7 @@ export const FEATURED_PRODUCTS = [
     desc: 'Three full charges, fits a laptop bag pocket.',
     img: productPowerbank,
     imgWidthFull: true,
-    dark: true,
+    opaque: true,
     waLabel: 'the Slim PD Power Bank',
   },
 ];

@@ -84,6 +84,13 @@
 .prod-card__media--dark {
   background: linear-gradient(160deg, #1a1e1b, #0c0f0d);
 }
+.prod-card__media--opaque {
+  background: #fff;
+  padding: 10px;
+}
+.prod-card__media--opaque img {
+  border-radius: 10px;
+}
 .prod-card__media img {
   transition: transform 0.5s;
 }

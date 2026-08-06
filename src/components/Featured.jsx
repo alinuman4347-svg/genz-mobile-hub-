@@ -5,7 +5,11 @@ import './Featured.css';
 function ProductCard({ product }) {
   return (
     <div className="prod-card">
-      <div className={`prod-card__media${product.dark ? ' prod-card__media--dark' : ''}`}>
+      <div
+        className={`prod-card__media${product.dark ? ' prod-card__media--dark' : ''}${
+          product.opaque ? ' prod-card__media--opaque' : ''
+        }`}
+      >
         <span className="prod-card__badge">{product.badge}</span>
         <img
           src={product.img}
