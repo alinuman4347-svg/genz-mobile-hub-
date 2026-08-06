@@ -1,7 +1,5 @@
 import mascot from '../assets/mascot.png';
 import heroCluster from '../assets/hero-cluster.png';
-import productCharger from '../assets/product-charger.png';
-import productEarbuds from '../assets/product-earbuds.png';
 import useReveal from '../hooks/useReveal';
 import { HERO_TAGS, TICKER_ITEMS, waLink } from '../data/content';
 import Marquee from './Marquee';
@@ -26,7 +24,7 @@ export default function Hero() {
 
       <div className="pad">
         <div className="hero__layout">
-          <div>
+          <div className="hero__content">
             <Reveal className="hero__badge">
               <img src={mascot} alt="" />
               <span>Hey! We deliver to your desk</span>
@@ -69,32 +67,12 @@ export default function Hero() {
 
           <div className="hero__visual">
             <div className="hero__visual-glow" />
-            <div className="hero__visual-ring" />
-            <img
-              src={heroCluster}
-              alt="Phone cover, tempered glass, charger, cable, earbuds and power bank"
-              className="hero__visual-img"
-            />
-
-            <div className="hero__float hero__float--a">
-              <img src={productCharger} alt="40W fast charger" />
-              <div className="hero__float-title">40W Fast Charger</div>
-              <div className="hero__float-sub">In stock today</div>
-            </div>
-
-            <div className="hero__float hero__float--b">
-              <img src={productEarbuds} alt="Wireless earbuds" />
-              <div className="hero__float-title">Wireless Earbuds</div>
-              <div className="hero__float-sub">Deep bass · ENC</div>
-            </div>
-
-            <div className="hero__float hero__float--pill">
-              <span className="hero__float-num">500+</span>
-              <span className="hero__float-pilltext">
-                accessories
-                <br />
-                delivered
-              </span>
+            <div className="hero__visual-frame">
+              <img
+                src={heroCluster}
+                alt="Phone cover, tempered glass, charger, cable, earbuds and power bank"
+                className="hero__visual-img"
+              />
             </div>
           </div>
         </div>
