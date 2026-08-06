@@ -209,6 +209,11 @@
   .hero__visual-frame {
     width: 93%;
     max-width: 400px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+  .hero__visual-img {
+    object-position: center;
   }
   .hero__title {
     font-size: 36px;
