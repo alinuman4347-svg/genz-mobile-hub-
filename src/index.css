@@ -61,10 +61,6 @@ button {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-18px); }
 }
-@keyframes flA {
-  0%, 100% { transform: translateY(0) rotate(-7deg); }
-  50% { transform: translateY(-22px) rotate(-3deg); }
-}
 @keyframes spinslow {
   to { transform: rotate(360deg); }
 }

@@ -69,10 +69,6 @@
   margin-top: 4px;
 }
 
-.delivery__cta {
-  margin-top: 34px;
-}
-
 .delivery__visual {
   position: relative;
 }
@@ -105,44 +101,33 @@
 
 .delivery__caption {
   position: absolute;
-  left: 22px;
-  bottom: 22px;
+  left: 24px;
+  right: 24px;
+  bottom: 24px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 900;
-  font-size: 22px;
+  font-weight: 800;
+  font-size: clamp(26px, 2.3vw, 32px);
+  line-height: 1.2;
   letter-spacing: -0.02em;
+  color: #f5f7f2;
+  text-wrap: pretty;
   pointer-events: none;
 }
-
-.delivery__floatcard {
-  position: absolute;
-  right: -18px;
-  top: -26px;
-  width: 150px;
-  padding: 14px;
-  border-radius: 20px;
-  background: linear-gradient(160deg, rgba(22, 26, 24, 0.97), rgba(10, 12, 11, 0.94));
-  border: 1px solid rgba(124, 255, 0, 0.28);
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
-  animation: flA 8s ease-in-out infinite;
-}
-.delivery__floatcard img {
-  width: 100%;
-  height: 86px;
-  object-fit: contain;
-  display: block;
-}
-.delivery__floatcard-label {
-  font-size: 11.5px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+.delivery__caption span {
   color: var(--green);
-  margin-top: 8px;
 }
 
 @media (max-width: 960px) {
   .delivery__split {
     grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .delivery__caption {
+    font-size: clamp(20px, 5vw, 24px);
+    left: 18px;
+    right: 18px;
+    bottom: 18px;
   }
 }

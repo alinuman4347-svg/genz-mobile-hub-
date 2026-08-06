@@ -1,7 +1,5 @@
-import productCover from '../assets/product-cover.png';
 import deliveryOffice from '../assets/delivery-office.jpg';
 import useReveal from '../hooks/useReveal';
-import { waLink } from '../data/content';
 import './Delivery.css';
 
 export default function Delivery() {
@@ -31,14 +29,6 @@ export default function Delivery() {
               <div className="delivery__stat-label">Rest cash or online on delivery</div>
             </div>
           </div>
-          <a
-            href={waLink('an office delivery')}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn--primary delivery__cta"
-          >
-            Request Office Delivery<span>→</span>
-          </a>
         </div>
 
         <div ref={right.ref} className={`delivery__visual reveal${right.visible ? ' is-visible' : ''}`}>
@@ -49,11 +39,9 @@ export default function Delivery() {
               className="delivery__photo"
             />
             <div className="delivery__fade" />
-            <div className="delivery__caption">Delivered to reception. Fitted at your desk.</div>
-          </div>
-          <div className="delivery__floatcard">
-            <img src={productCover} alt="Phone cover" />
-            <div className="delivery__floatcard-label">Fitted free</div>
+            <div className="delivery__caption">
+              Delivered to reception. Fitted at your <span>workspace</span>.
+            </div>
           </div>
         </div>
       </div>
