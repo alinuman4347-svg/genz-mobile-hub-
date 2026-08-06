@@ -224,4 +224,17 @@
   .hero__title {
     font-size: clamp(42px, 5.1vw, 71px);
   }
+
+  .hero__visual {
+    margin-top: -24px;
+    padding-right: 24px;
+  }
+  .hero__visual-frame {
+    max-width: 620px;
+    aspect-ratio: 1 / 1;
+    height: auto;
+  }
+  .hero__visual-img {
+    object-position: center;
+  }
 }
