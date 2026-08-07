@@ -1,4 +1,4 @@
-import mascot from '../assets/mascot.png';
+import mascot from '../assets/mascot.webp';
 import useReveal from '../hooks/useReveal';
 import { STEPS } from '../data/content';
 import { WhatsAppIcon } from './icons';

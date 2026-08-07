@@ -84,6 +84,9 @@
 .prod-card__media img {
   transition: transform 0.5s;
 }
+.prod-card__media--opaque {
+  background: #0a0d0b;
+}
 
 .prod-card__badge {
   position: absolute;
@@ -97,6 +100,10 @@
   color: var(--green);
   padding: 6px 10px;
   border-radius: 999px;
+}
+.prod-card__media--opaque .prod-card__badge {
+  background: var(--green);
+  color: #0a0d0b;
 }
 
 .prod-card__title {

@@ -1,5 +1,5 @@
-import mascot from '../assets/mascot.png';
-import heroCluster from '../assets/hero-cluster.png';
+import mascot from '../assets/mascot.webp';
+import heroCluster from '../assets/hero-cluster.webp';
 import useReveal from '../hooks/useReveal';
 import { TICKER_ITEMS, waLink } from '../data/content';
 import Marquee from './Marquee';

@@ -1,9 +1,9 @@
-import productCover from '../assets/product-cover.png';
-import productGlass from '../assets/product-glass.png';
-import productCharger from '../assets/product-charger.png';
-import productCable from '../assets/product-cable.png';
-import productEarbuds from '../assets/product-earbuds.png';
-import productPowerbank from '../assets/product-powerbank.png';
+import productCover from '../assets/product-cover.webp';
+import productGlass from '../assets/product-glass.webp';
+import productCharger from '../assets/product-charger.jpg';
+import productCable from '../assets/product-cable.webp';
+import productEarbuds from '../assets/product-earbuds.webp';
+import productPowerbank from '../assets/product-powerbank.webp';
 
 export const WHATSAPP_NUMBER = '923280042458';
 
@@ -58,6 +58,7 @@ export const FEATURED_PRODUCTS = [
     desc: 'Charge phone and buds together. Live wattage display.',
     img: productCharger,
     imgHeight: 150,
+    opaque: true,
     waLabel: 'the 40W Dual-Port Fast Charger',
   },
   {

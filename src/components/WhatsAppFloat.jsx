@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import mascot from '../assets/mascot.png';
+import mascot from '../assets/mascot.webp';
 import { waLink } from '../data/content';
 import { WhatsAppIcon } from './icons';
 import './WhatsAppFloat.css';

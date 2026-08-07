@@ -5,7 +5,7 @@ import './Featured.css';
 function ProductCard({ product }) {
   return (
     <div className="prod-card">
-      <div className="prod-card__media">
+      <div className={`prod-card__media${product.opaque ? ' prod-card__media--opaque' : ''}`}>
         <span className="prod-card__badge">{product.badge}</span>
         <img src={product.img} alt={product.title} style={{ height: product.imgHeight, width: 'auto' }} />
       </div>

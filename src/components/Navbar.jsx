@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import logoWhite from '../assets/logo-white.png';
+import logoWhite from '../assets/logo-white.webp';
 import { NAV_LINKS, waLink } from '../data/content';
 import { WhatsAppIcon } from './icons';
 import './Navbar.css';

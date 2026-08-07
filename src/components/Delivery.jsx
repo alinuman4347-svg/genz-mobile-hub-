@@ -1,4 +1,4 @@
-import deliveryOffice from '../assets/delivery-office.jpg';
+import deliveryOffice from '../assets/delivery-office.webp';
 import useReveal from '../hooks/useReveal';
 import './Delivery.css';
 
