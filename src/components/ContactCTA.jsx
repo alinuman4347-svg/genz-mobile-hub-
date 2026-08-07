@@ -1,5 +1,4 @@
 import mascot from '../assets/mascot.png';
-import qr from '../assets/qr.png';
 import useReveal from '../hooks/useReveal';
 import { waLink } from '../data/content';
 import { WhatsAppIcon } from './icons';
@@ -38,17 +37,11 @@ export default function ContactCTA() {
                 >
                   Start WhatsApp Order<span>→</span>
                 </a>
-                <a href="tel:+923280042458" className="contact__phone">
-                  0328 0042458
-                </a>
               </div>
             </div>
-            <div className="contact__qr-col">
+            <div className="contact__mascot-col">
+              <div className="contact__mascot-glow" />
               <img src={mascot} alt="Gen Z Mobile Hub mascot" className="contact__mascot" />
-              <div className="contact__qr-card">
-                <img src={qr} alt="Scan to WhatsApp Gen Z Mobile Hub" />
-              </div>
-              <div className="contact__qr-label">Scan to WhatsApp</div>
             </div>
           </div>
         </div>
